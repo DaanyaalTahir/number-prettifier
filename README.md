@@ -56,7 +56,7 @@ A Test-Driven Development (TDD) approach will be used for developing the Number 
 ## Results
 Below is a screenshot of the test results.
 
-![Test Results](https://github.com/DaanyaalTahir/number-prettifier/blob/main/screenshots/results.png)
+![Test Results](https://github.com/DaanyaalTahir/number-prettifier/blob/master/screenshots/results.png)
 
 ## Running the Repository
 
