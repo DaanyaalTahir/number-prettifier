@@ -1,0 +1,14 @@
+{
+  "name": "geotab",
+  "version": "1.0.0",
+  "description": "Geotab Coding assessment",
+  "main": "numberPrettifier.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Daanyaal Tahir",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
