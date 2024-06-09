@@ -20,7 +20,7 @@ A Test-Driven Development (TDD) approach will be used for developing the Number 
 | ID  | Description                                                                 |
 |-----|-----------------------------------------------------------------------------|
 | R1  | Accepts numeric type.                                                       |
-| R2  | Returns a prettified string version.                                        |
+| R2  | Returns a prettified string version with the appropiate suffix.                                        |
 | R3  | Does not prettify numbers less than 6 digits.                               |
 | R4  | Prettifies numbers greater than 6 digits, supporting millions, billions, and trillions. |
 | R5  | Includes one decimal place when the truncated number is not an integer.     |
@@ -28,12 +28,12 @@ A Test-Driven Development (TDD) approach will be used for developing the Number 
 2. **State assumptions** (refer to the previous section).
 3. **Partition the input space** to help determine appropriate test cases:
 
-| Partition               | Example Values                       |
-|-------------------------|--------------------------------------|
-| 0 &le; number &lt; 1M   | 532                                  |
-| 1M &le; number &lt; 1B  | 2,000,000 or 2,500,000               |
-| 1B &le; number &lt; 1T  | 1,000,000,000 or 1,123,456,789       |
-| 1T &le; number &lt; 1Q  | 1,000,000,000,000 or 1,234,567,890,123 |
+| Partition                   | Input                   | Example Values                       |
+|-------------------------|-------------------------|--------------------------------------|
+| No Suffix                   | 0 &le; number &lt; 1M   | 532                                  |
+| "M" Suffix                   | 1M &le; number &lt; 1B  | 2,000,000 or 2,500,000               |
+| "B" Suffix                   | 1B &le; number &lt; 1T  | 1,000,000,000 or 1,123,456,789       |
+| "T" Suffix                   | 1T &le; number &lt; 1Q  | 1,000,000,000,000 or 1,234,567,890,123 |
 
 *Q - Quadrillion
 
